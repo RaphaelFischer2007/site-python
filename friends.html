@@ -1,0 +1,24 @@
+<!doctype html> <html lang=en>
+
+<head>
+    <link rel=stylesheet type=text/css href={{ url_for("static", filename="main.css") }}>
+</head> 
+<body>
+    <form method="get" action="/backb/">
+        <input id="image" type="image" width="50" height="50" alt="Back"
+        src={{ url_for("static", filename="images/noun_Arrow_in_circle_851224.svg") }}></form>
+    <form method="get" action="/return/">
+        <input id="image" type="image" width="50" height="50" alt="Gohome"
+        src={{ url_for("static", filename="images/home.svg") }}></form>
+<h1>Amis</h1>
+
+<form method="GET" action="/new_friend/">
+    <button type="submit">Ajouter un ami</button>
+</form>
+
+<form method="GET" action="/friend_request/">
+    <button type="submit">Demandes en attente</button>
+</form>
+
+</body>
+</html>

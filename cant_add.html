@@ -1,0 +1,26 @@
+<!doctype html> <html lang=en>
+
+<head>
+    <link rel=stylesheet type=text/css href={{ url_for("static", filename="main.css") }}>
+</head> 
+<body>
+
+    <form method="get" action="/backf/">
+        <input id="image" type="image" width="50" height="50" alt="Back"
+        src={{ url_for("static", filename="images/noun_Arrow_in_circle_851224.svg") }}></form>
+    <form method="get" action="/return/">
+        <input id="image" type="image" width="50" height="50" alt="Gohome"
+        src={{ url_for("static", filename="images/home.svg") }}></form>
+
+    
+    
+<h1>Ajouter un ami</h1>
+
+</body>
+<form method="post" action="/add_friend/">
+    <input type="text" id="friend_name" name="friend_name">
+    <button type="submit">Ajouter</button>
+<h3>Vous ne pouvez pas ajouter {{message}} car il n'existe pas.</h3>
+</form>
+
+</html>
