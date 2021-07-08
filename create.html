@@ -1,0 +1,32 @@
+<!doctype html> <html lang=en>
+
+<head>
+    <link rel=stylesheet type=text/css href={{ url_for("static", filename="main2.css") }}>
+</head> 
+<body>
+<form method="get" action="/backc/">
+    <input id="image" type="image" width="50" height="50" alt="Back"
+        src=https://static.thenounproject.com/png/3532096-200.png></form>
+<form method="get" action="/return/">
+    <input id="home" type="image" width="50" height="50" alt="Gohome"
+    src=https://static.thenounproject.com/png/4038132-200.png></form>
+<h1> Créer un nouveau compte</h1>
+
+<form action="/new/" method="POST">
+    <h4>Identifiant</h4>
+    <input type="text" id="nuser_name" name="nuser_name"> 
+
+
+</h3>
+<h4> Mot de passe</h4>
+
+    <input type="text" id="nmdp" name="nmdp"> 
+    <h3>
+    </h3>
+    <button type="submit">Créer mon compte</button>
+
+
+    </form>
+</body>
+</html>
+

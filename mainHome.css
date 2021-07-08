@@ -1,0 +1,48 @@
+h1 {
+    font-size: 4em; color: green; text-align: center ;font-family: 'Open Sans', Comic Sans MS;
+}
+
+h3 {
+    font-size: 1em; color: red; text-align: center;
+}
+
+h4 {
+    font-size: 1em; color: rgb(53, 53, 53); text-align: left;padding: 0 100px 20px 100px;
+}
+
+form {
+    font-size: 1em; color: rgb(23, 0, 128); text-align: left;
+}
+
+body {
+    width: 900px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+  }
+
+  html {
+    background-color: #00aeff;
+  }
+
+button {
+    background-color: rgb(255, 255, 255); color:grey;
+}
+
+  input[type="text"]
+  {
+      font-size:24px;
+  }
+
+  input[type='image'] {
+    width: 80px;
+}
+
+img{
+    padding: 0 130px 20px 130px;
+}
+
+p {
+    font-size: 2em; color:rgb(53, 53, 53); text-align: left; padding: 0 100px 20px 100px;
+}

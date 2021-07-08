@@ -1,0 +1,33 @@
+<!doctype html> <html lang=en>
+
+<head>
+    <link rel=stylesheet type=text/css href={{ url_for("static", filename="main2.css") }}>
+</head> 
+<body>
+
+    <form method="get" action="/return/">
+        <input id="image" type="image" width="50" height="50" alt="Gohome"
+        src=https://static.thenounproject.com/png/4038132-200.png></form>
+
+<h1> Connexion </h1>
+
+<form action="/" method="POST">
+    <h4>Identifiant</h4>
+<input type="text" id="user_name" name="user_name">
+<h3> Votre identifiant n'existe pas. Veuillez réessayer.</h3> 
+<h4 >Mot de passe</h4>
+<input type="text" id="mdp" name="mdp"> 
+<h3>
+</h3>
+<button type="submit">Connexion</button>
+</form>
+<h1>
+</h1>
+<h2>Vous n'avez pas de compte ?</h2>
+
+<form method="get" action="/create/">
+    <button type="submit">Créer un nouveau compte</button>
+
+</body>
+</html>
+
